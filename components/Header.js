@@ -1,12 +1,14 @@
 import  beauty from "./Header.module.css";
 import SearchIcon from "@material-ui/icons/Search";
 import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
+import Image from 'next/image';
+
 
 function Header() {  
   return (
     <div className={beauty.header}>
       
-        <img
+        <Image
           className={beauty.header__logo}
           src="http://pngimg.com/uploads/amazon/amazon_PNG11.png"
         />
