@@ -1,5 +1,5 @@
 import styles from './Product.module.css';
-;
+import Image from 'next/image'
 function Product({ id, title, image, price, rating }) {
  
     return (
@@ -18,7 +18,7 @@ function Product({ id, title, image, price, rating }) {
           </div>
         </div>
   
-        <img src={image} alt="" />
+        <Image src={image} alt="" />
   
         <button>Add to Basket</button>
       </div>
